@@ -5,6 +5,6 @@ USER $username
 ARG COURSE
 ARG TRAINER
 echo echo "Course: ${COURSE}, Trainer: ${TRAINER}"
-ENV COURSE=${COURSE}
-ENV TRAINER=${TRAINER}
+ENV Course=${COURSE}
+ENV Trainer=${TRAINER}
 CMD ["sleep", "100"]
